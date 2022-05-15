@@ -1,6 +1,6 @@
 {
-    "name": "hearing_aid",
-    "short_name": "hearing_aid",
+    "name": "stereo",
+    "short_name": "stereo",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

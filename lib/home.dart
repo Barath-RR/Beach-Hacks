@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
-import 'rec.dart';
+import 'package:stereo/record.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -103,34 +103,34 @@ class _HomeState extends State<Home> {
                 ),
               ),
             ),
+            // Positioned(
+            //   top: 395,
+            //   left: 30,
+            //   right: 30,
+            //   child: new Container(
+            //     margin: EdgeInsets.all(20),
+            //     padding: EdgeInsets.all(35),
+            //     alignment: Alignment.center,
+            //     decoration: BoxDecoration(
+            //         color: Colors.blueAccent.shade400,
+            //         borderRadius: BorderRadius.all(Radius.circular(10.0))),
+            //     child: Column(
+            //       children: <Widget>[
+            //         Text(
+            //           "Hello Sir what would you like to eat ?",
+            //           style: TextStyle(
+            //             fontSize: 15,
+            //             color: Colors.white,
+            //             fontWeight: FontWeight.w800,
+            //           ),
+            //           textAlign: TextAlign.center,
+            //         )
+            //       ],
+            //     ),
+            //   ),
+            // ),
             Positioned(
-              top: 395,
-              left: 30,
-              right: 30,
-              child: new Container(
-                margin: EdgeInsets.all(20),
-                padding: EdgeInsets.all(35),
-                alignment: Alignment.center,
-                decoration: BoxDecoration(
-                    color: Colors.blueAccent.shade400,
-                    borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                child: Column(
-                  children: <Widget>[
-                    Text(
-                      "Hello Sir what would you like to eat ?",
-                      style: TextStyle(
-                        fontSize: 15,
-                        color: Colors.white,
-                        fontWeight: FontWeight.w800,
-                      ),
-                      textAlign: TextAlign.center,
-                    )
-                  ],
-                ),
-              ),
-            ),
-            Positioned(
-              top: 570,
+              top: 430,
               left: 0,
               right: 0,
               child: Column(
@@ -156,17 +156,17 @@ class _HomeState extends State<Home> {
           items: const <BottomNavigationBarItem>[
             BottomNavigationBarItem(
               icon: Icon(Icons.home_filled),
-              title: Text('Home'),
+              label: 'Home',
               backgroundColor: Colors.blueAccent,
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.person_add_alt_rounded),
-              title: Text('Profile'),
+              label: 'profile',
               backgroundColor: Colors.blueAccent,
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.settings),
-              title: Text('Settings'),
+              label: 'Settings',
               backgroundColor: Colors.blueAccent,
             ),
           ],

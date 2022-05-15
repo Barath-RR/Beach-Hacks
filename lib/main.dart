@@ -33,7 +33,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       )),
       Positioned(
-        top: 150,
+        top: 90,
         left: 0,
         right: 0,
         child: new Container(
@@ -43,17 +43,17 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       Positioned(
-        top: 300,
+        top: 210,
         left: 0,
         right: 0,
         child: new Container(
           child: Column(children: <Widget>[
-            Image.asset('./assets/images/Whistle.png', width: 350, height: 350),
+            Image.asset('./assets/images/Stereo.png', width: 350, height: 350),
           ]),
         ),
       ),
       Positioned(
-          top: 650,
+          top: 450,
           left: 0,
           right: 0,
           child: new Container(

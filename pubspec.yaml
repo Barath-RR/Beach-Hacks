@@ -1,7 +1,9 @@
-name: hearing_aid
-description: 
+name: stereo
 
-publish_to: 'none' 
+description: A simple solution to make deaf people aware of their surroundings.
+
+
+publish_to: Beach hacks 4
 
 
 version: 1.0.0+1
@@ -10,16 +12,22 @@ environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
-  avatar_glow: ^2.0.2
-  cupertino_icons: ^1.0.2
+
   flutter:
     sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  avatar_glow: ^2.0.2
+
   speech_to_text: ^3.1.0
-  rflutter_alert: 
+
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+
 
 flutter:
 
@@ -28,16 +36,4 @@ flutter:
 
   uses-material-design: true
 
-  # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
 
