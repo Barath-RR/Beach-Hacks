@@ -113,6 +113,8 @@ class _RegisterState  extends State<RegisterHome> {
 
                             },
                             shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(30.0),
+
                             ),
                             padding: const EdgeInsets.all(8.0),
                             textColor: Colors.white,
@@ -136,6 +138,7 @@ class _RegisterState  extends State<RegisterHome> {
                           Buttons.Facebook,
                           text: 'Sign Up with Facebook',
                           shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(30.0),
                           ),
                           onPressed: () {},
                         ),

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_signin_button/flutter_signin_button.dart';
 import 'package:stereo/Screens/Home.dart';
 import 'package:stereo/Screens/sticky.dart';
+import 'package:stereo/Screens/bottom.dart';
 
 void main() {
   runApp(LoginScreen());
@@ -90,9 +91,10 @@ class _LoginState extends State<LoginHome> {
                         child: Container(
                           child: RaisedButton(
                             onPressed: (){
-                              Navigator.push(context, MaterialPageRoute(builder: (context)=> Home()));
+                              Navigator.push(context, MaterialPageRoute(builder: (context)=> BottonScreen()));
                             },
                             shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(30.0),
                             ),
                             padding: const EdgeInsets.all(8.0),
                             textColor: Colors.white,
@@ -129,6 +131,7 @@ class _LoginState extends State<LoginHome> {
                         child: SignInButton(
                           Buttons.Google,
                           shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(30.0),
                           ),
                           onPressed: () {},
                         ),

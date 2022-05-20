@@ -19,7 +19,7 @@ class _HomeState extends State<Home> {
           elevation: 15,
           title: Container(
             width: 100,
-            child: Image.asset('./assets/logo.png'),
+            child: Image.asset('assets/logo.png'),
           ),
           centerTitle: true,
         ),
@@ -136,8 +136,12 @@ class _HomeState extends State<Home> {
               child: Column(
                 children: [
                   RaisedButton(
-                    child: Text('Start Recording'),
-                    color: Colors.deepOrange[600],
+                    child: Text('Start Recording',style: TextStyle(
+                      fontSize: 15,
+                      color: Colors.white,
+                      fontWeight: FontWeight.w800,
+                    )),
+                    color: Colors.blue,
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.all(Radius.circular(16.0))),
                     onPressed: () {
@@ -152,25 +156,7 @@ class _HomeState extends State<Home> {
             )
           ],
         ),
-        bottomNavigationBar: BottomNavigationBar(
-          items: const <BottomNavigationBarItem>[
-            BottomNavigationBarItem(
-              icon: Icon(Icons.home_filled),
-              label: 'Home',
-              backgroundColor: Colors.blueAccent,
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.person_add_alt_rounded),
-              label: 'profile',
-              backgroundColor: Colors.blueAccent,
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.settings),
-              label: 'Settings',
-              backgroundColor: Colors.blueAccent,
-            ),
-          ],
-        ),
+
       ),
     );
   }
