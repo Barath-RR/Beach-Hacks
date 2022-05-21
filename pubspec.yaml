@@ -1,39 +1,31 @@
 name: stereo
-
-description: A simple solution to make deaf people aware of their surroundings.
-
-
-publish_to: Beach hacks 4
-
-
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
-
   flutter:
     sdk: flutter
-
+  cloud_firestore: ^2.5.1
+  firebase_auth: ^3.1.0
+  firebase_core: ^1.6.0
+  flutter_signin_button:
+  responsive_framework:
+  shared_preferences:
+  after_layout:
   cupertino_icons: ^1.0.2
-
-  avatar_glow: ^2.0.2
-
-  speech_to_text: ^3.1.0
-
-
+  flutter_settings_screens:
+  avatar_glow:
+  speech_to_text:
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-
-
 flutter:
-
-  assets:
-    - assets/images/
-
   uses-material-design: true
-
-
+  assets:
+    - assets/login.jpg
+    - assets/logo.png

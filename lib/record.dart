@@ -6,7 +6,7 @@ class AboutWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AlertDialog(
-      title: Text('Cautious !'),
+      title: Text('Alert!!Someone is Calling you up!'),
     );
   }
 }
