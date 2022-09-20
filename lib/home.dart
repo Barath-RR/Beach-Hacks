@@ -65,7 +65,7 @@ class _HomeState extends State<Home> {
                 child: Column(
                   children: <Widget>[
                     Text(
-                      "Good Morning have a Great Day !",
+                      "Good Morning have a Great Day Ahead !",
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.white,
